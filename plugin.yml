@@ -1,0 +1,8 @@
+name: NsFormApi
+api: 5.0.0
+version: 1.0.0
+authors:
+  - V4iZ
+  - NilSkyShop
+  - jojoe77777
+main: Vaizeur\NsFormApi\NsFormApi
