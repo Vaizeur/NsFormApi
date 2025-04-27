@@ -24,7 +24,7 @@ class ModalForm extends Form {
     }
 
     public function processData(&$data) : void {
-        if(!is_bool($data)) {
+        if(!is_bool($data) && !is_null($data)) {
             throw new FormValidationException("Expected a boolean response, got " . gettype($data));
         }
     }
